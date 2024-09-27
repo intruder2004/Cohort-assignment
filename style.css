@@ -1,0 +1,133 @@
+body {
+  background-color: #a8cdd4cc;
+}
+
+#heading {
+  margin-bottom: 20px;
+  font-size: xxx-large;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #002f6c;
+}
+
+#maindiv {
+  background-color: #1565c0;
+  height: 600px;
+  width: 750px;
+  margin: 10 auto;
+  border-radius: 20px;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#one {
+  display: flex;
+  justify-content: space-between;
+}
+
+#two {
+  border-radius: 15px;
+  width: 600px;
+  height: 40px;
+  background-color: #bbdefb;
+  font-size: 15px;
+  color: #333;
+  margin: 20 auto;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+#inputBox {
+  margin-left: 20px;
+  margin-top: 2px;
+  height: 100%;
+  width: 100%;
+  background-color: #e3f2fd;
+  font-size: large;
+  border: none;
+  outline: none;
+  color: #002f6c;
+}
+#inputBox::placeholder {
+  font-size: large;
+  color: #1e88e5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+#button {
+  margin-top: 18px;
+  margin-right: 25px;
+  height: 30px;
+  font-size: large;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #003c8f;
+  border-radius: 15px;
+  padding: 10px 25px;
+  transition: transform 0.2s, box-shadow 0.2s ease-in-out;
+  text-align: center;
+  display: inline-block;
+}
+#button:hover {
+  background-color: #002f6c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#button:active {
+  transform: scale(0.95);
+}
+
+#task {
+  margin-top: 20px;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgb(230, 230, 230);
+  padding-left: 29px;
+  padding-bottom: 20px;
+}
+
+#todocontainer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #64b5f6;
+  border-radius: 10px;
+  background-color: #bbdefb;
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: #021630;
+  font-size: medium;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+#todocontainer div:hover {
+  background-color: #90caf9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #ff6b6b;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+  background-color: #ff4b4b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
